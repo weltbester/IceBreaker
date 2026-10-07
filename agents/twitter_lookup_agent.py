@@ -40,6 +40,6 @@ def lookup(name: str) -> str:
         input={"input": prompt_template.format_prompt(name_of_person=name)}
     )
 
-    twitter_username = result["output"]
+    x_username = result["output"]
 
-    return twitter_username
+    return x_username

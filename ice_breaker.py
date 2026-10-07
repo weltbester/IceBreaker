@@ -21,8 +21,8 @@ def ice_break_with(
     linkedin_url = linkedin_lookup_agent(name=name)
     linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_url)
 
-    twitter_username = twitter_lookup_agent(name=name)
-    tweets = scrape_user_tweets_mock(username=twitter_username)
+    x_username = twitter_lookup_agent(name=name)
+    tweets = scrape_user_tweets_mock(username=x_username)
 
     summary_chain = get_summary_chain()
     summary_and_facts: Summary = summary_chain.invoke(
