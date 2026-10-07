@@ -71,7 +71,7 @@ pipenv run pytest .
 
 Required environment variables in `.env`:
 - `OPENAI_API_KEY` - OpenAI API for LLM
-- `SCRAPIN_API_KEY` - Scrapin.io for LinkedIn data
+- `SCARFACE_API_KEY` - Scrapin.io for LinkedIn data
 - `TAVILY_API_KEY` - Tavily for web search
 - `TWITTER_API_KEY`, `TWITTER_API_SECRET`, `TWITTER_ACCESS_TOKEN`, `TWITTER_ACCESS_SECRET` - Optional Twitter API
 
