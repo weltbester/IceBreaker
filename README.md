@@ -131,7 +131,7 @@ Create a `.env` file in the root directory:
 
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
-SCRAPIN_API_KEY=your_scrapin_api_key_here
+SCARFACE_API_KEY=your_scrapin_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 
 # Optional: Twitter scraping (if you want Twitter data)
@@ -151,7 +151,7 @@ LANGCHAIN_PROJECT=ice_breaker
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `OPENAI_API_KEY` | Your OpenAI API key for LLM access | ✅ |
-| `SCRAPIN_API_KEY` | Scrapin.io API key for LinkedIn scraping | ✅ |
+| `SCARFACE_API_KEY` | Scrapin.io API key for LinkedIn scraping | ✅ |
 | `TAVILY_API_KEY` | Tavily API key for enhanced web search | ✅ |
 | `TWITTER_API_KEY` | Twitter API key for social data access (optional) | ⚪ |
 | `TWITTER_API_SECRET` | Twitter API secret (optional) | ⚪ |
